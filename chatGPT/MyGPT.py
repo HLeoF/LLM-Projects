@@ -2,7 +2,7 @@ from openai import OpenAI
 from loguru import logger
 from dotenv import load_dotenv, find_dotenv
 
-load_dotenv(find_dotenv('api.env'))
+load_dotenv(find_dotenv())
 
 
 class MyGPT:
