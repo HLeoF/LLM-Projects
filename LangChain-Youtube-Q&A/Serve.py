@@ -9,7 +9,7 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.document_loaders import YoutubeLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-load_dotenv("D:/LLMs Projects/enviroment.env")
+load_dotenv("")
 
 url = "https://www.youtube.com/watch?v=wd7TZ4w1mSw&list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x&index=1"
 loader = YoutubeLoader.from_youtube_url(url, add_video_info=True)
